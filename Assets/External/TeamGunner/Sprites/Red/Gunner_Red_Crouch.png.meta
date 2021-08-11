@@ -11,6 +11,12 @@ TextureImporter:
   - first:
       213: -6496867729382972095
     second: Gunner_Red_Crouch_2
+  - first:
+      213: 8961558020845079449
+    second: Gunner_Red_Crouch_4
+  - first:
+      213: -293474406028070158
+    second: Gunner_Red_Crouch_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -107,8 +113,8 @@ TextureImporter:
         y: 9
         width: 28
         height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -128,8 +134,8 @@ TextureImporter:
         y: 9
         width: 28
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -149,8 +155,8 @@ TextureImporter:
         y: 9
         width: 28
         height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
