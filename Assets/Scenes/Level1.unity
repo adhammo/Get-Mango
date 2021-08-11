@@ -1207,7 +1207,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2380822, y: -0.30901742, z: -10}
+  m_LocalPosition: {x: 0.90759254, y: -0.30901742, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 458525298}
@@ -1973,6 +1973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Contoller: {fileID: 1520497387283895228}
   character: {fileID: 6946707872892191265}
+  animator: {fileID: 1092560650}
 --- !u!4 &1092560648
 Transform:
   m_ObjectHideFlags: 0
@@ -3238,6 +3239,7 @@ GameObject:
   - component: {fileID: 2076233895}
   - component: {fileID: 2076233894}
   - component: {fileID: 2076233897}
+  - component: {fileID: 2076233898}
   m_Layer: 0
   m_Name: VM Camera
   m_TagString: Untagged
@@ -3300,7 +3302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076233893}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2964766, y: -3.2500002, z: -10}
+  m_LocalPosition: {x: -1.3823035, y: -3.2500002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 762057468}
@@ -3324,6 +3326,25 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 1981408832}
   m_ConfineScreenEdges: 1
   m_Damping: 0
+--- !u!95 &2076233898
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076233893}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 214c8696a0713154a8eca0c3d956800d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2118144394
 GameObject:
   m_ObjectHideFlags: 0
